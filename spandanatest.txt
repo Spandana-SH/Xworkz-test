@@ -1,0 +1,86 @@
+1. syntax to declare variable  ---    type variableName = value;
+
+2.can we have 2 variables with same name in same scope ---- no
+
+3.can we declare static variables inside the method   -------  no
+
+4.can we change the class signature main method ------   no
+
+5.what is the purpose of using String args[] in main method ----- to hold the command line arguments in the form of string values. 
+
+6.java is strictly types language or not ---- no because java is a strongly typed programming language because every variable must be declared with a data type
+
+7.can we declare more than 2 methods with same name ----- yes
+
+8.can we have a 2 class with same name ---- no 
+
+9. syntax to declare array and assign values to the array ---- datatype[] arrayName = new datatype[length]
+
+10.output ---  0
+
+
+11. how to run java program with steps
+
+12.javac --- The Java programming language compiler, javac , reads source files written in the Java programming language, and compiles them into bytecode class files
+
+   java ---- java is a object oriented programming language(oop)which is platform independent.
+
+13.classLoader --- it is a part of JRE i,e java runtime environment.
+
+14.when will we get the ArrayIndexBound Exception and how to solve it --- when we access an array,  with an invalid index.
+ 
+15.why java is not a pure object oriented programming language ----- it is because of the presence of primitive data types, use of static keywords and wrapper classes in java program.
+
+16.Why we need JDK,JRE, and JVM ---
+   JDK --- JAVA DEVELOPMENT KIT---JDK is for development purpose. 
+   JRE --- JAVA RUNTIME ENVIRONMENT ---JRE is for running the java programs
+   JVM --- JAVA VIRTUAL MACHINE --- JDK and JRE both contains JVM so that we can run our java program
+
+17.Which is the special method called by JVM --- To initialize the object, the JVM calls a special method named <init>.
+
+18.Will the program run if we write static public void main ----  yes
+
+19.What gives java its "write once and run anywhere" nature ---- The bytecode.
+
+20.What if i write static public void instead of public static void --- it will run the program successfully.
+
+21.Explain about JVM --- A Java virtual machine (JVM) is a virtual machine that enables a computer to run Java programs as well as programs written in other languages that are also compiled to Java bytecode.
+
+22.Explain class member ---  has its definition or its prototype within the class definition like any other variable.
+
+23.Explain the types of arguments --- formal arguments, actual arguments
+24. 
+25.What is variable --- A variable is a container which holds the value when the Java program is getting executed. A variable can be assigned with a data type. Variable is a name of memory location.
+ 
+26.Where does java stores variables --- variables are stored in the heap collection.
+
+27.What is variable initialization how is it different than assignment
+
+28.Why is specifying datatype is is mandatory in java --- because java is a strongly typed language.
+
+29.What are the different kinds of variables defined in java programming language --- local,instance and static.
+
+30.Tasks of JVM --- 1.It will allow Java programs to run on any device(WORA) 
+                    2.And to manage program memory.
+
+31.What are block variables in java programming language ---
+
+ 
+32.What is WORA stands for --- Write Once Run Anywhere.
+
+33.How to check the version og java ---- java -version
+
+34.Latest version of java is --- java 18.0.1.1
+
+35.What is a class --- A class is a building blockk of OOP. It is a blueprint and which define the properties and behavior of objects.
+
+	
+36.What is an object ---  object is the instances of class that represent real world things.
+ 
+37.Write the syntax to declare a class ---  class NameOfClass { . . . } 
+
+38.Write a syntax to create a instance(object) ---  ClassName object = new ClassName();
+
+39.What is a constructor --- to initialize the  instance variable,when the object is created.
+
+   
