@@ -1,0 +1,137 @@
+1.Brother
+2.grandfather
+3.cousin
+4.maternal uncle
+5.nephew
+6.x/a*y
+7.A family consists of 5 members p,q,r,s and t. t has 2 sons,an unmarried daughter and only one daughter in law.p is the brother in law of the above mentioned daughter in law.q's sister is not happy with q's wife.but p and his father support q's wife
+who is daughter of t  ====  q
+8.how is p related to s===== 
+9.how is t related to q====son
+10.who is the wife of q=== daughter in law of t
+11.10km
+12.east
+13.north east
+14.south west
+
+
+
+JAVA program
+1.it will show an error because int cannot be converted to boolean 
+2.10,110
+3.incompatible types: int cannot be converted to boolean
+4.why main method is static?   ----  The main method is static in java because of that JVM can call it without creating an instance of the class.
+5.program to reverse array elements ---- input={10,45,7,9,,2} output={2,9,7,45,10}
+
+public class ReverseArray {
+    public static void main(String[] args) {
+        int[] array = {10, 45, 7, 9, 2};
+
+        System.out.println("Original Array: " + Arrays.toString(array));
+
+        reverseArray(array);
+
+        System.out.println("Reversed Array: " + Arrays.toString(array));
+    }
+
+    public static void reverseArray(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (start < end) {
+            // Swap elements at start and end indices
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+
+            // Move the indices towards the center
+            start++;
+            end--;
+        }
+    }
+}
+
+           
+6.program to arrange array elements in desending order and remove the duplicates  input:{2,5,4,8,2,3,6,2}   output:{8,6,5,4,3,2,1}
+
+
+
+7. output == done
+8.Difference between this and this()
+9.Write a program to swap a two number without using 3rd variable.
+public class SwapNumbers {
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = 10;
+
+        System.out.println("Before swapping: num1 = " + num1 + ", num2 = " + num2);
+
+        // Swap numbers without using a third variable
+        num1 = num1 + num2;
+        num2 = num1 - num2;
+        num1 = num1 - num2;
+
+        System.out.println("After swapping: num1 = " + num1 + ", num2 = " + num2);
+    }
+}
+
+10.Write a program to print the pattern  1. &            &
+                                                 &
+                                            &            & 
+
+public class PrintPattern {
+    public static void main(String[] args) {
+        System.out.println("&            &");
+        System.out.println("     &        ");
+        System.out.println("&            &");
+    }
+}
+
+
+                                         2.%      %       %
+                                           %      &       %
+                                           %      %       % 
+public class PatternPrint1{
+    public static void main(String[] args) {
+        printPattern();
+    }
+
+    public static void printPattern1() {
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 3; j++) {
+                if (j == 2 && i == 2) {
+                    System.out.print("& ");
+                } else {
+                    System.out.print("% ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+                                       3.%      %       %
+                                         %              %
+                                         %      %       %
+
+
+public class PatternPrint2 {
+    public static void main(String[] args) {
+        printPattern();
+    }
+
+    public static void printPattern() {
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 3; j++) {
+                if ((j == 2 && i != 2) || (j != 2 && i == 2)) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("% ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+          
